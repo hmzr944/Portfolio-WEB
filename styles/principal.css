@@ -919,6 +919,8 @@ section {
     height: 24px;
 }
 
+
+
 /* Formulaire de contact */
 .formulaire-contact {
     background: var(--fond-carte);
@@ -1035,6 +1037,7 @@ body.mode-sombre .champ-saisie:focus {
     margin-left: var(--espacement-md);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
+
 
 .bouton-mode-sombre:hover {
     transform: scale(1.05);
@@ -1215,4 +1218,8 @@ body.mode-sombre .bouton-mode-sombre::before {
 
 .contenu-footer p {
     margin-bottom: var(--espacement-xs);
+}
+
+.lien-x {
+    text-decoration: none;
 }
