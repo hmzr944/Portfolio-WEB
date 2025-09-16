@@ -1222,4 +1222,5 @@ body.mode-sombre .bouton-mode-sombre::before {
 
 .lien-x {
     text-decoration: none;
+    color:#64748b;
 }
