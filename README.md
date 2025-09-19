@@ -1,4 +1,4 @@
-# Portfolio Étudiant - Hamza Mezouar
+# Portfolio Étudiant - Hamza Tanda
 
 Bienvenue sur mon portfolio !  
 Ce projet a été réalisé dans le cadre de ma formation en développement web afin de présenter mon parcours, mes compétences et mes projets.
