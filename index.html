@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hamza Tanda - Développeur Web en Formation</title>
-    <meta name="description" content="Portfolio de Hamza Tanda, étudiant en développement web. Spécialisé en HTML, CSS, JavaScript et développement responsive.">
+    <title>Portfolio Hamza – Développeur Web Fullstack (Laravel, Vue.js, API REST)</title>
+    <meta name="description" content="Portfolio de Hamza, développeur web fullstack spécialisé Laravel, Vue.js, API REST, sécurité, projets modernes et responsives.">
+    <meta property="og:title" content="Portfolio Hamza – Développeur Web Fullstack">
+    <meta property="og:description" content="Découvrez mes projets web : Mini CRM Laravel & Vue.js, applications modernes, sécurité, API REST, etc.">
+    <meta property="og:image" content="images/mini-crm-demo.png">
     
     <!-- Polices Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     
     <!-- Styles CSS -->
     <link rel="stylesheet" href="styles/principal.css">
@@ -174,31 +177,93 @@
                     </div>
                 </article>
 
-                <!-- Projet 3: Laravel + Vue.js -->
+                <!-- Projet 3: Mini CRM Laravel & Vue.js -->
                 <article class="carte-projet" data-projet="laravel-vue">
-                    <div class="image-projet">
-                        <div class="placeholder-image projet-laravel-vue">
-                            <svg class="icone-projet" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-                                <circle cx="12" cy="12" r="3"/>
+                    <div class="image-projet projet-laravel-vue">
+                        <div class="placeholder-image">
+                            <svg class="icone-projet" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <rect x="3" y="4" width="18" height="16" rx="2" ry="2"/>
+                                <path d="M16 2v4M8 2v4"/>
+                                <path d="M3 10h18"/>
+                                <circle cx="8" cy="14" r="2"/>
+                                <circle cx="16" cy="14" r="2"/>
                             </svg>
                         </div>
                     </div>
                     <div class="contenu-projet">
-                        <h3 class="titre-projet">Mini CRM Laravel & Vue.js</h3>
-                        <p class="description-projet">
-                            Application CRM simple avec Laravel et Vue.js. Gestion des contacts et suivi client.
-                        </p>
+                        <h3 class="titre-projet">Mini CRM Laravel & Vue.js <span class="badge-projet">Projet phare</span></h3>
+                        <ul style="margin-bottom:1rem;">
+                            <li><strong>Stack :</strong> Laravel (API REST, sécurité, tests), Vue.js (Inertia), Tailwind CSS, Vite, SQLite/MySQL</li>
+                            <li><strong>Fonctionnalités :</strong>
+                                <ul>
+                                    <li>Inscription & connexion sécurisées</li>
+                                    <li>CRUD clients</li>
+                                    <li>Envoi d’emails</li>
+                                    <li>Interface responsive</li>
+                                </ul>
+                            </li>
+                        </ul>
                         <div class="technologies-projet">
-                            <span class="tag-techno laravel">Laravel 10</span>
-                            <span class="tag-techno vue">Vue.js 3</span>
-                            <span class="tag-techno">Composition API</span>
-                            <span class="tag-techno">MySQL</span>
+                            <span class="tag-techno laravel">Laravel</span>
+                            <span class="tag-techno vue">Vue.js</span>
+                            <span class="tag-techno">Tailwind CSS</span>
+                            <span class="tag-techno">API REST</span>
+                            <span class="tag-techno">CRUD</span>
+                            <span class="tag-techno">Authentification</span>
+                            <span class="tag-techno">Sécurité</span>
+                            <span class="tag-techno">Tests</span>
                             <span class="tag-techno">SQLite</span>
-                            <span class="tag-techno">Stripe API</span>
+                            <span class="tag-techno">Vite</span>
                         </div>
                         <div class="liens-projet">
-                            <a href="https://github.com/hmzr944/Mini-CRM" class="lien-code" target="_blank" rel="noopener noreferrer">Code source</a>
+                            <a class="lien-demo" href="https://mini-crm-demo.example.com" target="_blank">Démo live</a>
+                            <a class="lien-code" href="https://github.com/ton-github/mini-crm" target="_blank">Code source</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Projet 4: Job Board / Plateforme (en cours) -->
+                <article class="carte-projet" data-projet="job-board">
+                    <div class="image-projet projet-fullstack">
+                        <div class="placeholder-image">
+                            <svg class="icone-projet" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <rect x="3" y="7" width="18" height="13" rx="2" ry="2"/>
+                                <path d="M16 3v4M8 3v4"/>
+                                <path d="M12 12v3"/>
+                                <circle cx="12" cy="16" r="1"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="contenu-projet">
+                        <h3 class="titre-projet">Plateforme Job Board <span class="badge-projet" style="background:#fbbf24;color:#222;">En cours</span></h3>
+                        <ul style="margin-bottom:1rem;">
+                            <li><strong>Stack prévue :</strong> Laravel (API REST), Vue.js ou React, MySQL/PostgreSQL</li>
+                            <li><strong>Fonctionnalités prévues :</strong>
+                                <ul>
+                                    <li>Authentification & rôles (admin, recruteur, candidat)</li>
+                                    <li>CRUD annonces, profils, candidatures</li>
+                                    <li>Recherche & filtres avancés</li>
+                                    <li>Upload de CV PDF</li>
+                                    <li>Notifications email</li>
+                                    <li>Interface responsive</li>
+                                </ul>
+                            </li>
+                            <li><strong>Statut :</strong> En cours de développement</li>
+                        </ul>
+                        <div class="technologies-projet">
+                            <span class="tag-techno laravel">Laravel</span>
+                            <span class="tag-techno">API REST</span>
+                            <span class="tag-techno">Vue.js</span>
+                            <span class="tag-techno">React</span>
+                            <span class="tag-techno">MySQL</span>
+                            <span class="tag-techno">PostgreSQL</span>
+                            <span class="tag-techno">CRUD</span>
+                            <span class="tag-techno">Authentification</span>
+                            <span class="tag-techno">Upload</span>
+                            <span class="tag-techno">Notifications</span>
+                        </div>
+                        <div class="liens-projet">
+                            <span style="color:#fbbf24;font-weight:500;">Projet en développement</span>
                         </div>
                     </div>
                 </article>

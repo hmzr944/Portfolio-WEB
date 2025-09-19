@@ -67,7 +67,7 @@ html {
 }
 
 body {
-    font-family: var(--police-principale);
+    font-family: 'Poppins', Arial, sans-serif;
     line-height: var(--hauteur-ligne);
     color: var(--texte-principal);
     background-color: var(--fond-principal);
@@ -1222,4 +1222,5 @@ body.mode-sombre .bouton-mode-sombre::before {
 
 .lien-x {
     text-decoration: none;
+    color:#64748b;
 }
